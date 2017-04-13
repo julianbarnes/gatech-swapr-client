@@ -1,0 +1,39 @@
+#menubar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 5px;
+    padding-left: $default-padding;
+    color: white;
+    background-color: $midnight-blue;
+    border-bottom: 1px solid black;
+    overflow: visible;
+    z-index: 200;
+
+    h1 {
+        font-size: 20px;
+        font-weight: 100;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+    #profile-menu {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        cursor: pointer;
+    }
+
+    .course-title {
+        text-align: center;
+        background-color: #C82828;
+    }
+
+    .menu-title {
+        padding: 5%;
+        color:white;
+    }
+}

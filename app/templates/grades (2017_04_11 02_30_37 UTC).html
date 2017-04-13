@@ -1,0 +1,6 @@
+<h1 class="title">Grades</h1>
+<div class="card" ng-repeat="grade in grades">
+    <div class="pull-right"><h4>{{ grade.grade }}</h4></div>
+    <h3 class="title">{{ grade.title }}</h3>
+    <button ui-sref="grades.detail({ id: grade.id })">View feedback</button>
+</div>
